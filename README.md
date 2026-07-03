@@ -161,37 +161,27 @@ http://localhost:8501
 
 ---
 
-# 📸 Screenshots
+## 📸 Screenshots
 
-## 🏠 Home
+### Dashboard
+![Dashboard](Screenshots/dashboard.png)
 
-![Home](screenshots/dashboard.png)
+### New Analysis
+![New Analysis](Screenshots/new-analysis.png)
 
----
+### Results
+![Results](Screenshots/results.png)
 
-## ➕ New Analysis
+### Scenario Builder
+![Scenario Builder](Screenshots/scenario-builder.png)
 
-![New Analysis](new-analysis.png)
+### Scenario Comparison
+![Comparison](Screenshots/comparison.png)
 
----
-
-## 📊 Analysis Results
-
-![Results](screenshots/results.png)
-
----
-
-## 📈 Scenario Comparison
+### PDF Report
+![Report](Screenshots/report.png)
 
 ![Comparison](screenshots/comparison.png)
-
----
-
-## 📄 Generated PDF Report
-
-![Report](screenshots/report.png)
-
----
 
 # 🧪 Testing
 
