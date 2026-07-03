@@ -171,7 +171,7 @@ http://localhost:8501
 
 ## ➕ New Analysis
 
-![New Analysis](screenshots/new-analysis.png)
+![New Analysis](new-analysis.png)
 
 ---
 
