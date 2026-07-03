@@ -1,0 +1,71 @@
+{
+  "id": "cafe",
+  "name": "Cafe",
+  "parent_id": "base_food_business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "A coffee shop offering various coffee drinks, pastries, and light meals",
+      "industry": "Food & Beverage"
+    },
+    "business": {
+      "business_type": "Cafe",
+      "products_services": [
+        "Coffee",
+        "Tea",
+        "Pastries",
+        "Sandwiches"
+      ],
+      "target_audience": [
+        "Students",
+        "Professionals",
+        "Commuters"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 30000,
+      "initial_investment_max": 150000,
+      "expected_margin": 0.25
+    },
+    "operations": {
+      "staff_required_min": 2,
+      "staff_required_max": 8,
+      "equipment": [
+        "Commercial Espresso Machine",
+        "Grinders",
+        "Refrigerators",
+        "POS system"
+      ]
+    },
+    "market": {
+      "competition_level": "Very High",
+      "target_demographics": [
+        "Young adults",
+        "Working professionals"
+      ]
+    },
+    "risk": {
+      "risk_level": "High",
+      "key_risks": [
+        "Intense local competition",
+        "Coffee bean price volatility"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 3,
+      "breakeven_months": 14
+    },
+    "validation": {
+      "required_licenses": [
+        "Food Service License",
+        "Business License",
+        "Signage Permit"
+      ],
+      "compliance_requirements": [
+        "Health Inspections",
+        "Fire Code"
+      ]
+    },
+    "assumptions": {}
+  }
+}

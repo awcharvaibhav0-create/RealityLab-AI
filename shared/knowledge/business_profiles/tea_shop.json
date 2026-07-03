@@ -1,0 +1,68 @@
+{
+  "id": "tea_shop",
+  "name": "Tea Shop",
+  "parent_id": "base_food_business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "A cozy shop specializing in various teas and light snacks",
+      "industry": "Food & Beverage"
+    },
+    "business": {
+      "business_type": "Tea Shop",
+      "products_services": [
+        "Specialty Teas",
+        "Pastries",
+        "Tea accessories"
+      ],
+      "target_audience": [
+        "Students",
+        "Remote workers",
+        "Tea enthusiasts"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 15000,
+      "initial_investment_max": 75000,
+      "expected_margin": 0.4
+    },
+    "operations": {
+      "staff_required_min": 1,
+      "staff_required_max": 5,
+      "equipment": [
+        "Espresso/Tea Machine",
+        "Water boilers",
+        "Pastry display case",
+        "POS system"
+      ]
+    },
+    "market": {
+      "competition_level": "Medium",
+      "target_demographics": [
+        "Young adults",
+        "Professionals"
+      ]
+    },
+    "risk": {
+      "risk_level": "Medium",
+      "key_risks": [
+        "Changing consumer preferences",
+        "Supply chain issues for specialty teas"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 2,
+      "breakeven_months": 8
+    },
+    "validation": {
+      "required_licenses": [
+        "Food Service License",
+        "Business License"
+      ],
+      "compliance_requirements": [
+        "Health and Safety Inspections"
+      ]
+    },
+    "assumptions": {}
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "grocery_store",
+  "name": "Grocery Store",
+  "parent_id": "base_retail_business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "A store selling fresh produce, packaged foods, and household items",
+      "industry": "Retail"
+    },
+    "business": {
+      "business_type": "Grocery Store",
+      "products_services": [
+        "Fresh Produce",
+        "Dairy",
+        "Meat",
+        "Packaged Goods"
+      ],
+      "target_audience": [
+        "Local Families",
+        "Neighborhood Residents"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 50000,
+      "initial_investment_max": 500000,
+      "expected_margin": 0.05
+    },
+    "operations": {
+      "staff_required_min": 3,
+      "staff_required_max": 25,
+      "equipment": [
+        "Refrigerated Display Cases",
+        "Shelving",
+        "Checkout Counters",
+        "Inventory Scanners"
+      ]
+    },
+    "market": {
+      "competition_level": "High",
+      "target_demographics": [
+        "Families",
+        "Individuals in 1-mile radius"
+      ]
+    },
+    "risk": {
+      "risk_level": "Medium",
+      "key_risks": [
+        "Perishable inventory loss",
+        "Supply chain disruptions",
+        "Supermarket competition"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 4,
+      "breakeven_months": 18
+    },
+    "validation": {
+      "required_licenses": [
+        "Business License",
+        "Retail Food Permit",
+        "Weights and Measures Registration"
+      ],
+      "compliance_requirements": [
+        "Health Inspections",
+        "FDA Guidelines"
+      ]
+    },
+    "assumptions": {}
+  }
+}

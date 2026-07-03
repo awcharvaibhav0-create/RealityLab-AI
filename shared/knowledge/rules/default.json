@@ -1,0 +1,23 @@
+{
+    "id": "base_retail_rules",
+    "business_type": "base_retail_business",
+    "scenario_id": null,
+    "priority": 1,
+    "active_rules": {
+        "market": {
+            "expected_customer_growth": 0.05,
+            "expected_expense_growth": 0.03,
+            "footfall_multiplier": 1.2,
+            "competition_penalty": 2.5,
+            "seasonality": {
+                "1": 0.8, "2": 0.9, "3": 1.1, "4": 1.2, 
+                "5": 1.3, "6": 1.1, "7": 1.0, "8": 0.9, 
+                "9": 0.9, "10": 1.1, "11": 1.4, "12": 1.5
+            }
+        },
+        "finance": {
+            "default_margin": 0.15,
+            "inflation_adjustment": 0.02
+        }
+    }
+}

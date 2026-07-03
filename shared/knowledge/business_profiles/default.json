@@ -1,0 +1,10 @@
+{
+    "id": "base_retail_business",
+    "name": "Base Retail",
+    "description": "A baseline business profile for generic analysis",
+    "category": "Retail",
+    "attributes": {
+        "volatility": "Medium",
+        "margin_expectation": 0.15
+    }
+}

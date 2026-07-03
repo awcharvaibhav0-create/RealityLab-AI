@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: realitylab_api
+    command: ["api"]
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+    volumes:
+      - ..:/app
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: realitylab_frontend
+    command: ["frontend"]
+    ports:
+      - "8501:8501"
+    environment:
+      - API_URL=http://api:8000
+    depends_on:
+      - api
+    volumes:
+      - ..:/app

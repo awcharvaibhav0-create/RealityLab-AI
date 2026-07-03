@@ -1,0 +1,2 @@
+class ReportConfig:
+    pass

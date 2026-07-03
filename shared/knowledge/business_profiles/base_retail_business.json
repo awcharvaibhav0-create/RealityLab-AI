@@ -1,0 +1,64 @@
+{
+  "id": "base_retail_business",
+  "name": "Base Retail Business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "Base profile for all retail businesses",
+      "industry": "Retail"
+    },
+    "business": {
+      "business_type": "Retail Store",
+      "products_services": [
+        "Consumer goods"
+      ],
+      "target_audience": [
+        "General public"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 20000,
+      "initial_investment_max": 300000,
+      "expected_margin": 0.2
+    },
+    "operations": {
+      "staff_required_min": 1,
+      "staff_required_max": 15,
+      "equipment": [
+        "Shelving",
+        "Point of Sale (POS) system",
+        "Inventory Management System"
+      ]
+    },
+    "market": {
+      "competition_level": "Medium",
+      "target_demographics": [
+        "Local residents",
+        "Passersby"
+      ]
+    },
+    "risk": {
+      "risk_level": "Medium",
+      "key_risks": [
+        "Theft/Shrinkage",
+        "Inventory obsolescence",
+        "Economic downturn"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 2,
+      "breakeven_months": 18
+    },
+    "validation": {
+      "required_licenses": [
+        "Business License",
+        "Retail Permit"
+      ],
+      "compliance_requirements": [
+        "Zoning Laws",
+        "Consumer Rights"
+      ]
+    },
+    "assumptions": {}
+  }
+}

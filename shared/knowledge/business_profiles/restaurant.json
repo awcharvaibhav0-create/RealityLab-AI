@@ -1,0 +1,73 @@
+{
+  "id": "restaurant",
+  "name": "Restaurant",
+  "parent_id": "base_food_business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "Full-service dining establishment offering lunch and dinner",
+      "industry": "Food & Beverage"
+    },
+    "business": {
+      "business_type": "Restaurant",
+      "products_services": [
+        "Full Meals",
+        "Appetizers",
+        "Beverages",
+        "Alcohol"
+      ],
+      "target_audience": [
+        "Families",
+        "Couples",
+        "Business Diners"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 100000,
+      "initial_investment_max": 750000,
+      "expected_margin": 0.1
+    },
+    "operations": {
+      "staff_required_min": 5,
+      "staff_required_max": 30,
+      "equipment": [
+        "Commercial Kitchen",
+        "Dining Furniture",
+        "POS System",
+        "Bar Equipment"
+      ]
+    },
+    "market": {
+      "competition_level": "High",
+      "target_demographics": [
+        "Middle to High Income Locals",
+        "Tourists"
+      ]
+    },
+    "risk": {
+      "risk_level": "Very High",
+      "key_risks": [
+        "High failure rate",
+        "Staff turnover",
+        "Changing food trends"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 6,
+      "breakeven_months": 24
+    },
+    "validation": {
+      "required_licenses": [
+        "Food Service License",
+        "Liquor License",
+        "Business License"
+      ],
+      "compliance_requirements": [
+        "Health and Safety",
+        "Fire Safety",
+        "Labor Laws"
+      ]
+    },
+    "assumptions": {}
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "base_food_business",
+  "name": "Base Food Business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "Base profile for all food-related businesses",
+      "industry": "Food & Beverage"
+    },
+    "business": {
+      "business_type": "Food Service",
+      "products_services": [
+        "Food items",
+        "Beverages"
+      ],
+      "target_audience": [
+        "General public"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 10000,
+      "initial_investment_max": 500000,
+      "expected_margin": 0.15
+    },
+    "operations": {
+      "staff_required_min": 2,
+      "staff_required_max": 20,
+      "equipment": [
+        "Kitchen appliances",
+        "Point of Sale (POS) system"
+      ]
+    },
+    "market": {
+      "competition_level": "High",
+      "target_demographics": [
+        "Local residents",
+        "Office workers"
+      ]
+    },
+    "risk": {
+      "risk_level": "High",
+      "key_risks": [
+        "Food spoilage",
+        "Health code violations",
+        "Staff turnover"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 3,
+      "breakeven_months": 12
+    },
+    "validation": {
+      "required_licenses": [
+        "Food Service License",
+        "Business License"
+      ],
+      "compliance_requirements": [
+        "Health and Safety",
+        "Fire Safety"
+      ]
+    },
+    "assumptions": {}
+  }
+}

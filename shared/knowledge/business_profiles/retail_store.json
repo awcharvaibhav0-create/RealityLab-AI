@@ -1,0 +1,67 @@
+{
+  "id": "retail_store",
+  "name": "General Retail Store",
+  "parent_id": "base_retail_business",
+  "attributes": {
+    "metadata": {
+      "version": "1.0",
+      "description": "A store selling non-food consumer goods like clothing, electronics, or books",
+      "industry": "Retail"
+    },
+    "business": {
+      "business_type": "Retail Store",
+      "products_services": [
+        "Clothing",
+        "Electronics",
+        "Home Goods"
+      ],
+      "target_audience": [
+        "General public"
+      ]
+    },
+    "financial": {
+      "initial_investment_min": 25000,
+      "initial_investment_max": 250000,
+      "expected_margin": 0.3
+    },
+    "operations": {
+      "staff_required_min": 1,
+      "staff_required_max": 10,
+      "equipment": [
+        "Display Racks",
+        "Cash Register / POS",
+        "Security Cameras"
+      ]
+    },
+    "market": {
+      "competition_level": "Medium",
+      "target_demographics": [
+        "Local Shoppers",
+        "Tourists"
+      ]
+    },
+    "risk": {
+      "risk_level": "Medium",
+      "key_risks": [
+        "E-commerce competition",
+        "Inventory theft (shrinkage)",
+        "Trend obsolescence"
+      ]
+    },
+    "timeline": {
+      "setup_time_months": 2,
+      "breakeven_months": 12
+    },
+    "validation": {
+      "required_licenses": [
+        "Business License",
+        "Sales Tax Permit"
+      ],
+      "compliance_requirements": [
+        "Zoning Laws",
+        "ADA Compliance"
+      ]
+    },
+    "assumptions": {}
+  }
+}
