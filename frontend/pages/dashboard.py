@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from frontend.components.metric_card import render_metric_card
 
-API_URL = os.environ.get("API_URL", "https://realitylab-ai.onrender.com")
+API_URL = os.environ.get("API_URL", "http://localhost:8000")
 
 
 def fetch_data(endpoint, default_val):
