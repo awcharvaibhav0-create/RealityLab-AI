@@ -8,7 +8,7 @@ from frontend.components.error_state import render_error_state
 from frontend.state import get_state, set_state
 
 def execute_with_progress(analysis_id, profile, scenarios):
-    API_URL = os.environ.get("API_URL", "http://localhost:8000")
+    API_URL = os.environ.get("API_URL", "https://realitylab-ai.onrender.com")
     result_container = {}
     
     def fetch():

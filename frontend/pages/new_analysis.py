@@ -72,7 +72,7 @@ def render():
 
                     # Save to database (assuming generic save or direct sql if needed)
                     try:
-                        API_URL = os.environ.get("API_URL", "http://localhost:8000")
+                        API_URL = os.environ.get("API_URL", "https://realitylab-ai.onrender.com")
                         response = requests.post(
                             f"{API_URL}/api/v1/analysis", json=profile_data, timeout=5
                         )
