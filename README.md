@@ -98,6 +98,46 @@ RealityLab-AI/
 
 ---
 
+# 🌐 Live Deployment
+
+### Frontend
+**Streamlit Cloud:**
+https://realitylab-ai-8appbjqfmj7mux2ce4gjfxu.streamlit.app/
+
+### Backend
+**Render / FastAPI:**
+https://realitylab-ai.onrender.com
+
+### API Documentation
+**Swagger UI:**
+https://realitylab-ai.onrender.com/docs
+
+### Production Architecture
+
+```text
+User
+ │
+ ▼
+Streamlit Cloud
+ │
+ │ HTTPS
+ ▼
+Render
+FastAPI Backend
+ │
+ ├── Financial Engine
+ ├── Market Engine
+ ├── Risk Engine
+ ├── Prediction Engine
+ ├── Decision Engine
+ └── Report Engine
+ │
+ ▼
+SQLite Database
+```
+
+> The frontend uses the deployed Render backend in production. For local development, the backend runs on `http://localhost:8000`.
+
 # 🚀 Installation
 
 Clone the repository
@@ -130,19 +170,19 @@ LOG_LEVEL=INFO
 # ▶️ Running the Backend
 
 ```bash
-python -m uvicorn backend.api.api_manager:app --reload
+python -m uvicorn backend.api.api_manager:app --reload --host 0.0.0.0 --port 8000
 ```
 
 Backend URL
 
 ```
-http://127.0.0.1:8000
+http://localhost:8000
 ```
 
 API Documentation
 
 ```
-http://127.0.0.1:8000/docs
+http://localhost:8000/docs
 ```
 
 ---
@@ -157,6 +197,22 @@ Frontend URL
 
 ```
 http://localhost:8501
+```
+
+### Backend URL Configuration
+
+The frontend uses the `API_URL` environment variable when provided.
+
+Local development:
+
+```text
+API_URL=http://localhost:8000
+```
+
+Production:
+
+```text
+API_URL=https://realitylab-ai.onrender.com
 ```
 
 ---
@@ -223,7 +279,7 @@ python -m compileall .
 - Multi-language Support
 - Team Collaboration
 - Advanced Forecast Models
-- Cloud Deployment
+- Cloud Deployment (Streamlit Cloud + Render)
 
 ---
 
