@@ -10,7 +10,7 @@ def render():
     st.markdown("<h1>??? Analysis History</h1>", unsafe_allow_html=True)
     st.write("Review past analyses stored in the RealityLab AI database.")
 
-    API_URL = os.environ.get("API_URL", "http://localhost:8000")
+    API_URL = os.environ.get("API_URL", https://realitylab-ai.onrender.com)
 
     # Fetch History
     def fetch_history():
